@@ -178,8 +178,6 @@ public class MainActivity extends AppCompatActivity {
 
         });*/
 
-
-
         LoadWeb("https://www.digigoodluck.com");
         webView.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
